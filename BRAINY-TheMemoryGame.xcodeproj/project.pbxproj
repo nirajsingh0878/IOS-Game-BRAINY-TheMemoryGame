@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2686ABB71FBC99FC000D926F /* Documents in Resources */ = {isa = PBXBuildFile; fileRef = 2686ABB61FBC99FA000D926F /* Documents */; };
+		26B16DF11FB8BF410017EF5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B16DF01FB8BF410017EF5D /* AppDelegate.swift */; };
+		26B16DF31FB8BF410017EF5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B16DF21FB8BF410017EF5D /* ViewController.swift */; };
+		26B16DF61FB8BF410017EF5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B16DF41FB8BF410017EF5D /* Main.storyboard */; };
+		26B16DF81FB8BF410017EF5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26B16DF71FB8BF410017EF5D /* Assets.xcassets */; };
+		26B16E061FB8BF410017EF5D /* BRAINY_TheMemoryGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B16E051FB8BF410017EF5D /* BRAINY_TheMemoryGameTests.swift */; };
+		26B16E111FB8BF410017EF5D /* BRAINY_TheMemoryGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B16E101FB8BF410017EF5D /* BRAINY_TheMemoryGameUITests.swift */; };
+		26B16E221FB8D4A50017EF5D /* 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 26B16E1E1FB8D4A40017EF5D /* 2.wav */; };
+		26B16E231FB8D4A50017EF5D /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 26B16E1F1FB8D4A50017EF5D /* 3.wav */; };
+		26B16E241FB8D4A50017EF5D /* 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 26B16E201FB8D4A50017EF5D /* 1.wav */; };
+		26B16E251FB8D4A50017EF5D /* 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 26B16E211FB8D4A50017EF5D /* 4.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26B16E021FB8BF410017EF5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26B16DE51FB8BF400017EF5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26B16DEC1FB8BF400017EF5D;
+			remoteInfo = "BRAINY-TheMemoryGame";
+		};
+		26B16E0D1FB8BF410017EF5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26B16DE51FB8BF400017EF5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26B16DEC1FB8BF400017EF5D;
+			remoteInfo = "BRAINY-TheMemoryGame";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2686ABB61FBC99FA000D926F /* Documents */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Documents; sourceTree = "<group>"; };
+		26B16DED1FB8BF400017EF5D /* BRAINY-TheMemoryGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BRAINY-TheMemoryGame.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B16DF01FB8BF410017EF5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26B16DF21FB8BF410017EF5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26B16DF51FB8BF410017EF5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26B16DF71FB8BF410017EF5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26B16DFC1FB8BF410017EF5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B16E011FB8BF410017EF5D /* BRAINY-TheMemoryGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BRAINY-TheMemoryGameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B16E051FB8BF410017EF5D /* BRAINY_TheMemoryGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BRAINY_TheMemoryGameTests.swift; sourceTree = "<group>"; };
+		26B16E071FB8BF410017EF5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B16E0C1FB8BF410017EF5D /* BRAINY-TheMemoryGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BRAINY-TheMemoryGameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B16E101FB8BF410017EF5D /* BRAINY_TheMemoryGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BRAINY_TheMemoryGameUITests.swift; sourceTree = "<group>"; };
+		26B16E121FB8BF410017EF5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B16E1E1FB8D4A40017EF5D /* 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2.wav; sourceTree = "<group>"; };
+		26B16E1F1FB8D4A50017EF5D /* 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3.wav; sourceTree = "<group>"; };
+		26B16E201FB8D4A50017EF5D /* 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1.wav; sourceTree = "<group>"; };
+		26B16E211FB8D4A50017EF5D /* 4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 4.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26B16DEA1FB8BF400017EF5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B16DFE1FB8BF410017EF5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B16E091FB8BF410017EF5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26B16DE41FB8BF400017EF5D = {
+			isa = PBXGroup;
+			children = (
+				26B16DEF1FB8BF400017EF5D /* BRAINY-TheMemoryGame */,
+				26B16E041FB8BF410017EF5D /* BRAINY-TheMemoryGameTests */,
+				26B16E0F1FB8BF410017EF5D /* BRAINY-TheMemoryGameUITests */,
+				26B16DEE1FB8BF400017EF5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26B16DEE1FB8BF400017EF5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26B16DED1FB8BF400017EF5D /* BRAINY-TheMemoryGame.app */,
+				26B16E011FB8BF410017EF5D /* BRAINY-TheMemoryGameTests.xctest */,
+				26B16E0C1FB8BF410017EF5D /* BRAINY-TheMemoryGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26B16DEF1FB8BF400017EF5D /* BRAINY-TheMemoryGame */ = {
+			isa = PBXGroup;
+			children = (
+				26B16DF01FB8BF410017EF5D /* AppDelegate.swift */,
+				26B16DF21FB8BF410017EF5D /* ViewController.swift */,
+				26B16DF41FB8BF410017EF5D /* Main.storyboard */,
+				2686ABB61FBC99FA000D926F /* Documents */,
+				26B16DF71FB8BF410017EF5D /* Assets.xcassets */,
+				26B16E261FB8D4DE0017EF5D /* Sounds */,
+				26B16DFC1FB8BF410017EF5D /* Info.plist */,
+			);
+			path = "BRAINY-TheMemoryGame";
+			sourceTree = "<group>";
+		};
+		26B16E041FB8BF410017EF5D /* BRAINY-TheMemoryGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				26B16E051FB8BF410017EF5D /* BRAINY_TheMemoryGameTests.swift */,
+				26B16E071FB8BF410017EF5D /* Info.plist */,
+			);
+			path = "BRAINY-TheMemoryGameTests";
+			sourceTree = "<group>";
+		};
+		26B16E0F1FB8BF410017EF5D /* BRAINY-TheMemoryGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26B16E101FB8BF410017EF5D /* BRAINY_TheMemoryGameUITests.swift */,
+				26B16E121FB8BF410017EF5D /* Info.plist */,
+			);
+			path = "BRAINY-TheMemoryGameUITests";
+			sourceTree = "<group>";
+		};
+		26B16E261FB8D4DE0017EF5D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				26B16E201FB8D4A50017EF5D /* 1.wav */,
+				26B16E1E1FB8D4A40017EF5D /* 2.wav */,
+				26B16E1F1FB8D4A50017EF5D /* 3.wav */,
+				26B16E211FB8D4A50017EF5D /* 4.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26B16DEC1FB8BF400017EF5D /* BRAINY-TheMemoryGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26B16E151FB8BF410017EF5D /* Build configuration list for PBXNativeTarget "BRAINY-TheMemoryGame" */;
+			buildPhases = (
+				26B16DE91FB8BF400017EF5D /* Sources */,
+				26B16DEA1FB8BF400017EF5D /* Frameworks */,
+				26B16DEB1FB8BF400017EF5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BRAINY-TheMemoryGame";
+			productName = "BRAINY-TheMemoryGame";
+			productReference = 26B16DED1FB8BF400017EF5D /* BRAINY-TheMemoryGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26B16E001FB8BF410017EF5D /* BRAINY-TheMemoryGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26B16E181FB8BF410017EF5D /* Build configuration list for PBXNativeTarget "BRAINY-TheMemoryGameTests" */;
+			buildPhases = (
+				26B16DFD1FB8BF410017EF5D /* Sources */,
+				26B16DFE1FB8BF410017EF5D /* Frameworks */,
+				26B16DFF1FB8BF410017EF5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26B16E031FB8BF410017EF5D /* PBXTargetDependency */,
+			);
+			name = "BRAINY-TheMemoryGameTests";
+			productName = "BRAINY-TheMemoryGameTests";
+			productReference = 26B16E011FB8BF410017EF5D /* BRAINY-TheMemoryGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26B16E0B1FB8BF410017EF5D /* BRAINY-TheMemoryGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26B16E1B1FB8BF410017EF5D /* Build configuration list for PBXNativeTarget "BRAINY-TheMemoryGameUITests" */;
+			buildPhases = (
+				26B16E081FB8BF410017EF5D /* Sources */,
+				26B16E091FB8BF410017EF5D /* Frameworks */,
+				26B16E0A1FB8BF410017EF5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26B16E0E1FB8BF410017EF5D /* PBXTargetDependency */,
+			);
+			name = "BRAINY-TheMemoryGameUITests";
+			productName = "BRAINY-TheMemoryGameUITests";
+			productReference = 26B16E0C1FB8BF410017EF5D /* BRAINY-TheMemoryGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26B16DE51FB8BF400017EF5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Deltaapp;
+				TargetAttributes = {
+					26B16DEC1FB8BF400017EF5D = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					26B16E001FB8BF410017EF5D = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 26B16DEC1FB8BF400017EF5D;
+					};
+					26B16E0B1FB8BF410017EF5D = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 26B16DEC1FB8BF400017EF5D;
+					};
+				};
+			};
+			buildConfigurationList = 26B16DE81FB8BF400017EF5D /* Build configuration list for PBXProject "BRAINY-TheMemoryGame" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26B16DE41FB8BF400017EF5D;
+			productRefGroup = 26B16DEE1FB8BF400017EF5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26B16DEC1FB8BF400017EF5D /* BRAINY-TheMemoryGame */,
+				26B16E001FB8BF410017EF5D /* BRAINY-TheMemoryGameTests */,
+				26B16E0B1FB8BF410017EF5D /* BRAINY-TheMemoryGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26B16DEB1FB8BF400017EF5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B16E241FB8D4A50017EF5D /* 1.wav in Resources */,
+				26B16E231FB8D4A50017EF5D /* 3.wav in Resources */,
+				26B16E251FB8D4A50017EF5D /* 4.wav in Resources */,
+				26B16DF81FB8BF410017EF5D /* Assets.xcassets in Resources */,
+				2686ABB71FBC99FC000D926F /* Documents in Resources */,
+				26B16DF61FB8BF410017EF5D /* Main.storyboard in Resources */,
+				26B16E221FB8D4A50017EF5D /* 2.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B16DFF1FB8BF410017EF5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B16E0A1FB8BF410017EF5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26B16DE91FB8BF400017EF5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B16DF31FB8BF410017EF5D /* ViewController.swift in Sources */,
+				26B16DF11FB8BF410017EF5D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B16DFD1FB8BF410017EF5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B16E061FB8BF410017EF5D /* BRAINY_TheMemoryGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B16E081FB8BF410017EF5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B16E111FB8BF410017EF5D /* BRAINY_TheMemoryGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26B16E031FB8BF410017EF5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26B16DEC1FB8BF400017EF5D /* BRAINY-TheMemoryGame */;
+			targetProxy = 26B16E021FB8BF410017EF5D /* PBXContainerItemProxy */;
+		};
+		26B16E0E1FB8BF410017EF5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26B16DEC1FB8BF400017EF5D /* BRAINY-TheMemoryGame */;
+			targetProxy = 26B16E0D1FB8BF410017EF5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26B16DF41FB8BF410017EF5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26B16DF51FB8BF410017EF5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26B16E131FB8BF410017EF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26B16E141FB8BF410017EF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26B16E161FB8BF410017EF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85WJLA5AE2;
+				INFOPLIST_FILE = "BRAINY-TheMemoryGame/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Deltaapp.BRAINY-TheMemoryGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26B16E171FB8BF410017EF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85WJLA5AE2;
+				INFOPLIST_FILE = "BRAINY-TheMemoryGame/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Deltaapp.BRAINY-TheMemoryGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26B16E191FB8BF410017EF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BRAINY-TheMemoryGameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Deltaapp.BRAINY-TheMemoryGameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BRAINY-TheMemoryGame.app/BRAINY-TheMemoryGame";
+			};
+			name = Debug;
+		};
+		26B16E1A1FB8BF410017EF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BRAINY-TheMemoryGameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Deltaapp.BRAINY-TheMemoryGameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BRAINY-TheMemoryGame.app/BRAINY-TheMemoryGame";
+			};
+			name = Release;
+		};
+		26B16E1C1FB8BF410017EF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BRAINY-TheMemoryGameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Deltaapp.BRAINY-TheMemoryGameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BRAINY-TheMemoryGame";
+			};
+			name = Debug;
+		};
+		26B16E1D1FB8BF410017EF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BRAINY-TheMemoryGameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Deltaapp.BRAINY-TheMemoryGameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BRAINY-TheMemoryGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26B16DE81FB8BF400017EF5D /* Build configuration list for PBXProject "BRAINY-TheMemoryGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B16E131FB8BF410017EF5D /* Debug */,
+				26B16E141FB8BF410017EF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26B16E151FB8BF410017EF5D /* Build configuration list for PBXNativeTarget "BRAINY-TheMemoryGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B16E161FB8BF410017EF5D /* Debug */,
+				26B16E171FB8BF410017EF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26B16E181FB8BF410017EF5D /* Build configuration list for PBXNativeTarget "BRAINY-TheMemoryGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B16E191FB8BF410017EF5D /* Debug */,
+				26B16E1A1FB8BF410017EF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26B16E1B1FB8BF410017EF5D /* Build configuration list for PBXNativeTarget "BRAINY-TheMemoryGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B16E1C1FB8BF410017EF5D /* Debug */,
+				26B16E1D1FB8BF410017EF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26B16DE51FB8BF400017EF5D /* Project object */;
+}
