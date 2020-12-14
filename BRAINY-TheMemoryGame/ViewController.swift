@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  BRAINY-TheMemoryGame
-//
-//  Created by Delta Force on 12/11/17.
-//  Copyright © 2017 Deltaapp. All rights reserved.
-//
 
 import UIKit
 import AVFoundation
